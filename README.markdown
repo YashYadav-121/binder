@@ -64,7 +64,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Develop Binder
+## Develop Binder ##
 
 If you want to develop on Binder, I've tried to write down the steps I use.
 
@@ -80,7 +80,7 @@ From inside the container:
 pip install -r requirements.txt
 ```
 
-### Generating a new initial_data.json
+### Generating a new initial_data.json ##
 
 Certain versions of Django cause changes in the schema of the admin table.
 In this case, I've found a (perhaps less than proper) workflow for creating
